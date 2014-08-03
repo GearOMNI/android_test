@@ -6,6 +6,9 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
+           
+  <remote  name="gearomni"
+           fetch="https://github.com/gearomni" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -24,7 +27,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="omnirom" revision="android-4.4" />
+  <project path="android" name="android" remote="gearomni" revision="android-4.4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
@@ -251,7 +254,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-4.4" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="gearomni" revision="android-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -259,7 +262,7 @@
   <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-4.4" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="gearomni" revision="android-4.4" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-4.4" />
@@ -285,7 +288,7 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" revision="android-4.4" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.4" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="gearomni" revision="android-4.4" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-4.4" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.4" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-4.4" />
@@ -450,4 +453,17 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
+
+  <!-- Samsung Galaxy S4 Exynos Repositories -->
+  <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="gearomni" revision="android-4.4" />
+  <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="gearomni" revision="android-4.4" />
+  
+  <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" remote="gearomni" revision="android-4.4" />
+  <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="gearomni" revision="android-4.4" />
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="android_hardware_samsung_slsi_exynos5-insignal" remote="gearomni" revision="android-4.4" />
+  <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="gearomni" revision="android-4.4" />
+
+  <!-- Common Devices Repositories -->
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="gearomni" revision="android-4.4" />
+  
 </manifest>
