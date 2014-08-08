@@ -455,7 +455,7 @@
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="gearomni" revision="android-4.4" />
-  <project path="kernel/samsung/exynos5410" name="android_kernel_samsung_exynos5410" remote="gearomni" revision="android-4.4" />
+  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
   
   <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" remote="gearomni" revision="android-4.4" />
   <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="gearomni" revision="android-4.4" />
