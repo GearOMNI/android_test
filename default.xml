@@ -460,7 +460,7 @@
   <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" remote="gearomni" revision="android-4.4" />
   <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="gearomni" revision="android-4.4" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="android_hardware_samsung_slsi_exynos5-insignal" remote="gearomni" revision="android-4.4" />
-  <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="gearcm" revision="cm-11.0" />
+  <project path="hardware/samsung_slsi/openmax" name="gearcm/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
 
   <!-- Common Devices Repositories -->
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="gearomni" revision="android-4.4" />
